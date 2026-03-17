@@ -37,14 +37,6 @@ The clock updates every second using `setInterval()`.
 
 Media queries are used to adjust the clock size and hand lengths for smaller screens.
 
-## 📂 Project Structure
-
-analog-clock
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
 ## 👨‍💻 Author
 
 **Rohit Dhurve**
