@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family:monospace;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+
+.clock{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 20px;
+    justify-content: center;
+}
+.num{
+    position:absolute;
+    font-size: 5rem;
+    color: rgb(197, 121, 40);
+}
+.num12{
+   top: 1%;
+left: 50%;
+transform: translateX(-50%);
+    
+
+}
+.num6{
+   top: 85%;
+left: 50%;
+transform: translateX(-50%);
+}
+
+   .num3{
+right: 2%;
+top: 40%;
+
+}
+.num9{
+    left: 2%;
+    top: 40%;
+}
+.num1{
+       right: 20%;
+    top: 1%;
+}
+.num2{
+     left: 88%;
+    top: 16%;
+}
+.num4{
+    top: 67%;
+    left: 91%;
+}
+.num5{
+        top: 85%;
+    left: 73%;
+}
+.num7{
+    top: 85%;
+    left: 25%;
+}
+.num8{
+     top: 67%;
+    right: 91%;
+}
+.num10{
+     right: 85%;
+    top: 16%;
+}
+.num11{
+       top: 1%;
+    left: 19%;
+}
+
+.hand{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom;   
+}
+.hour{
+      position: absolute;
+    height: 130px;
+    width: 8px;
+    background-color: #171717;
+    border-radius: 25%;
+}
+.second{
+      position: absolute;
+    height: 220px;
+    width: 8px;
+    background-color: #c50606;
+    border-radius: 25%;
+}
+.minute{
+    position: absolute;
+    height: 200px;
+    width: 8px;
+    background-color: #181818a3;
+    border-radius: 25%;
+}
+.center-dot{
+    position: absolute;
+    background-color: rgb(171,171,170);
+    height: 40px;
+    width: 40px;
+   top: 46%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translateX(-50% );
+}
+
+@media (max-width:480px){
+
+.clock{
+height:300px;
+width:300px;
+}
+
+.num{
+font-size:3rem;
+}
+
+.hour{
+height:80px;
+}
+
+.minute{
+height:120px;
+}
+
+.second{
+height:140px;
+}
+
+}
